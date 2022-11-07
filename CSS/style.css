@@ -1,0 +1,183 @@
+*{ 
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    padding: 0;
+    scroll-behavior: smooth;
+    margin-left: inherit;
+    margin-right: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    /*  box-shadow: 0px 0px 5px gray; */
+    align-items: center;
+    height: 55px;
+}
+
+header img {
+    height: 30px
+}
+
+.localisation_point {
+    background-color: #f2f2f2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 180px 20px -184px rgba(71,71,71,0.6) inset;
+}
+
+.localisation_point p {
+    padding-left: 10px;
+}
+
+.bouton_explorer {
+    color: white;
+    width: 60%;
+    border-radius: 30px;
+    box-shadow:5px 5px 5px 5px #f2f2f2;
+    margin-bottom: 10%;
+    background: linear-gradient(#FF79DA, #9356DC );
+}
+
+.bouton_explorer p {
+    text-align: center;
+}
+.restaurant_explorer {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Therestaurants {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.cards {
+    background-color: white;
+    border-radius: 15px;
+    width: 90%;
+    margin-bottom: 5%;
+}
+.cards img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius:  15px 15px 0px 0px;
+}
+
+.under_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Heart {
+    font-size: 20px;    
+}
+
+.Heart svg{
+    height: 20px;
+}
+.Heart path {
+    fill: transparent;
+    stroke-width: 50px;
+    stroke: black;    
+}
+.Heart .icon_heart path {
+    stroke-dasharray: 1560;
+    stroke-dashoffset: 0;
+}
+
+/* animation */ 
+
+.Heart .icon_heart :hover path {
+    animation: animate-icon_heart 1.5s linear forwards;
+}
+
+    @keyframes animate-icon_heart 
+    {
+
+        0% {
+            stroke-dashoffset: 0;
+        }
+        40%
+        {
+            stroke-dashoffset: 1560;
+        }
+        80% {
+            stroke-dashoffset: 3120;
+            fill: transparent;
+        }
+        100% {
+            stroke-dashoffset: 3120;
+            fill: #9356DC;
+        }
+    }
+    
+
+
+.Fonctionnement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+.step_fonctionnement {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px 0px #f2f2f2;
+    margin-bottom: 5%;
+    
+}
+
+.Number_step {
+    background-color: #9356DC;
+    color: white;
+    border-radius: 50px;
+    width: 20px;
+    text-align: center;
+}
+
+.Icone_step {
+    color: gray;
+}
+
+.step_fonctionnement p {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.Fonctionnement h1 {
+    margin-right: 50%;
+    margin-top: 8%;
+}
+
+.Therestaurants h1 {
+    margin-right: 50%;
+    margin-top: 8%;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+}
+
+h3 {
+    font-family: 'Shrikhand', cursive;
+    margin: inherit;
+    margin-left: 5%;
+}
+
+footer ul {
+    margin-left: 2.5%;
+}
