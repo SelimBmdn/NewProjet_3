@@ -79,47 +79,21 @@ header img {
 
 .Heart {
     font-size: 20px;    
+    position: relative;
 }
 
-.Heart svg{
-    height: 20px;
-}
-.Heart path {
-    fill: transparent;
-    stroke-width: 50px;
-    stroke: black;    
-}
-.Heart .icon_heart path {
-    stroke-dasharray: 1560;
-    stroke-dashoffset: 0;
+.fa-solid {
+    transform: scale(0);
+    position: absolute;
+    transition: 1s;
+    background: -webkit-linear-gradient(top,#FF79DA, #9356DC );
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
-/* animation */ 
-
-.Heart .icon_heart :hover path {
-    animation: animate-icon_heart 1.5s linear forwards;
+.Heart:hover .fa-solid {
+    transform: scale(1);
 }
-
-    @keyframes animate-icon_heart 
-    {
-
-        0% {
-            stroke-dashoffset: 0;
-        }
-        40%
-        {
-            stroke-dashoffset: 1560;
-        }
-        80% {
-            stroke-dashoffset: 3120;
-            fill: transparent;
-        }
-        100% {
-            stroke-dashoffset: 3120;
-            fill: #9356DC;
-        }
-    }
-    
 
 
 .Fonctionnement {
@@ -137,7 +111,10 @@ header img {
     border-radius: 15px;
     box-shadow: 0px 5px 5px 0px #f2f2f2;
     margin-bottom: 5%;
-    
+}
+
+.step_fonctionnement:hover {
+    background-color: #efe6fa;
 }
 
 .Number_step {
