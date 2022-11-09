@@ -93,6 +93,8 @@ header img {
 .fa-solid {
     transform: scale(0);
     position: absolute;
+    left: 1%;
+    bottom: 10%;
     transition: 1s;
     background: -webkit-linear-gradient(top,#FF79DA, #9356DC );
     -webkit-background-clip: text;

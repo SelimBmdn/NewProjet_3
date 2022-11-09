@@ -1,4 +1,6 @@
 @media (min-width: 768px) {
+
+    /* Acceuil */
     
     .step_fonctionnement {
         width: 39%;
@@ -6,6 +8,11 @@
 
     .Fonctionnement {
         margin-bottom: 1%;
+    }
+
+    .Fonctionnement h1 {
+        margin-right: 0%;
+        margin-top: 2%;
     }
     .Conteiner_cards {
         display: flex;
@@ -19,5 +26,18 @@
     .Therestaurants h1 {
        margin-top: 3%
     }
+
+    .bouton_explorer {
+        width: 35%;
+    }
+
+                        /*Menus*/
+
+    /* a la francaise*/
+
+    
+
+
+
     }
     
