@@ -58,6 +58,14 @@ header img {
     /* justify-content: space-around; */
     align-items: center;
 }
+
+.Conteiner_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 .cards {
     background-color: white;
     border-radius: 15px;
