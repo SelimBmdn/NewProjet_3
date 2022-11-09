@@ -1,0 +1,45 @@
+
+*{ 
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    padding: 0;
+    scroll-behavior: smooth;
+    margin-left: inherit;
+    margin-right: inherit;
+}
+    
+header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10%;
+    align-items: center;
+    height: 55px;
+}
+    
+header img {
+        height: 30px
+}
+
+.arrow_return {
+    font-size: 25px;
+}
+
+.image_back img {
+    width: 100%;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+}
+    
+footer h3 {
+    font-family: 'Shrikhand', cursive;
+    margin: inherit;
+    margin-left: 5%;
+}
+    
+footer ul {
+    margin-left: 2.5%;
+}
