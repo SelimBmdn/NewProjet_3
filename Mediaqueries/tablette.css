@@ -1,7 +1,23 @@
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
     
-    .step.fonctionnement {
-        width: 35%;
+    .step_fonctionnement {
+        width: 39%;
+    }
+
+    .Fonctionnement {
+        margin-bottom: 1%;
+    }
+    .Conteiner_cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        margin: 1%;
+    }
+
+    .Therestaurants h1 {
+       margin-top: 3%
+    }
     }
     
-}
