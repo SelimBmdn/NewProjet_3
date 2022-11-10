@@ -43,3 +43,56 @@ footer h3 {
 footer ul {
     margin-left: 2.5%;
 }
+
+.all_the_menu {
+    background-color: #f2f2f2;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.title_and_heart {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title_and_heart h1 {
+    font-family: 'Shrikhand', cursive;
+}
+.heart_inside {
+    font-size: 25px;
+}
+
+.insidethemenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.food {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: space-around;
+    width: 95%;
+    align-items: flex-end;
+    height: 80px;
+    margin-bottom: 5%;
+    box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
+}
+
+.bouton_commander {
+    display: flex;
+    justify-content: center;
+}
+.bouton_commander p {
+    width: 35%;
+    box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
+    color: white;
+    background: -webkit-linear-gradient(top,#FF79DA, #9356DC );
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+}
