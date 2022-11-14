@@ -4,8 +4,10 @@
     list-style-type: none;
     padding: 0;
     scroll-behavior: smooth;
-    margin-left: inherit;
-    margin-right: inherit;
+}
+
+body {
+    margin: 0;
 }
 
 header {
@@ -90,7 +92,7 @@ header img {
     position: relative;
 }
 
-.fa-solid {
+.Heart .fa-solid {
     transform: scale(0);
     position: absolute;
     left: 1%;
@@ -112,6 +114,7 @@ header img {
     align-items: center;
     margin-bottom: 10%;
 }
+
 .step_fonctionnement {
     background-color: #f2f2f2;
     display: flex;
@@ -121,10 +124,15 @@ header img {
     border-radius: 15px;
     box-shadow: 0px 5px 5px 0px #f2f2f2;
     margin-bottom: 5%;
+    transition-duration: 500ms;
 }
 
 .step_fonctionnement:hover {
-    background-color: #efe6fa;
+    background-color: #efe6fa;    
+}
+
+.step_fonctionnement:hover .Icone_step i {
+    color: #9356DC;  
 }
 
 .Number_step {
