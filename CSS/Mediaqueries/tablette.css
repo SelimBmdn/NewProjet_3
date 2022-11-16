@@ -16,7 +16,7 @@
     }
     .Conteiner_cards {
         display: flex;
-        flex-direction: row;
+        
         flex-wrap: nowrap;
         align-items: center;
         width: 100%;
@@ -33,7 +33,7 @@
 
                         /*Menus*/
 
-    /* a la francaise*/
+    
 
     
 
