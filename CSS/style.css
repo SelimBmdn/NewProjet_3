@@ -10,6 +10,55 @@ body {
     margin: 0;
 }
 
+.fullbody {
+    animation: bodypage 3s;
+}
+ @keyframes bodypage {
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+ }
+
+
+
+.spinner {
+    height: 120px;
+    width: 120px;
+    left: 35%;
+    top: 35%;
+    position: absolute;
+    border: 6px solid #9356DC ;
+    border-color: #9356DC  transparent #9356DC  transparent;
+    border-radius: 50%;
+    animation:  spin 2s ease;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+@keyframes spin {
+    0% {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg);
+        opacity: 1;
+    } 
+    100% {
+        opacity: 0;
+    }
+
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -38,7 +87,7 @@ header img {
     color: white;
     width: 60%;
     border-radius: 30px;
-    box-shadow:5px 5px 5px 5px #f2f2f2;
+    box-shadow:5px 5px 5px 5px #70707024;;
     margin-bottom: 10%;
     background: linear-gradient(#FF79DA, #9356DC );
 }
@@ -46,13 +95,24 @@ header img {
 .bouton_explorer p {
     text-align: center;
 }
+
 .restaurant_explorer {
     background-color: #f2f2f2;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: 295px;
 }
+
+.restaurant_explorer h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+
 
 .Therestaurants {
     background-color: #f2f2f2;
