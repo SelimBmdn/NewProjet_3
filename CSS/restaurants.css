@@ -7,6 +7,7 @@
    scroll-behavior: smooth;
    margin-left: inherit;
    margin-right: inherit;
+   text-decoration: none;
 }
    
 header {
@@ -42,6 +43,19 @@ footer h3 {
    
 footer ul {
    margin-left: 2.5%;
+}
+
+footer li {
+    display: flex;
+    align-items: center;
+}
+
+.iconefourchette {
+    margin-right: 2%;
+}
+
+.iconehands {
+    margin-right: 2%;
 }
 
 .all_the_menu {
