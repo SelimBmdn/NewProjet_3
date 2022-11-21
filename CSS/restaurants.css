@@ -184,8 +184,8 @@ footer li {
    height: 45px;
 }
 
-/*.steptoeat {
-    animation-duration: 3s;
+.all_the_menu h2 {
+    animation-duration: 1s;
     animation-name: slidein;
     }
      
@@ -197,11 +197,11 @@ footer li {
         }
       
         to {
-          margin-left:0%;
+          margin-left:3%;
           width:100%;
         }
 
-      } */
+      } 
       
 .food1 {
     animation-duration: 1s;
