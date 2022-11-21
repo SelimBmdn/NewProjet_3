@@ -2,33 +2,33 @@
 
         /* Acceuil */
     
-        .step_fonctionnement {
-            width: 39%;
-        }
+    .step_fonctionnement {
+        width: 39%;
+    }
     
-        .Fonctionnement {
-            margin-bottom: 1%;
-        }
+    .Fonctionnement {
+        margin-bottom: 1%;
+    }
     
-        .Fonctionnement h1 {
-            margin-right: 0%;
-            margin-top: 2%;
-        }
-        .Conteiner_cards {
-            display: flex;
-            
-            flex-wrap: nowrap;
-            align-items: center;
-            width: 100%;
-            margin: 1%;
-        }
+    .Fonctionnement h1 {
+        margin-right: 0%;
+        margin-top: 2%;
+     }
+    .Conteiner_cards {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        margin: 1%;
+    }
     
-        .Therestaurants h1 {
-           margin-top: 3%
-        }
+    .Therestaurants h1 {
+       margin-top: 3%
+    }
     
-        .bouton_explorer {
-            width: 35%;
-        }
+    .bouton_explorer {
+        width: 35%;
+    }
 
+    
 }

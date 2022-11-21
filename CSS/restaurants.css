@@ -104,6 +104,54 @@ footer li {
    box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
 }
 
+.food1 {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: space-around;
+    width: 95%;
+    align-items: flex-end;
+    height: 80px;
+    margin-bottom: 5%;
+    box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
+ }
+
+ .food2 {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: space-around;
+    width: 95%;
+    align-items: flex-end;
+    height: 80px;
+    margin-bottom: 5%;
+    box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
+ }
+
+ .food3 {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: space-around;
+    width: 95%;
+    align-items: flex-end;
+    height: 80px;
+    margin-bottom: 5%;
+    box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
+ }
+
+ .food4 {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    justify-content: space-around;
+    width: 95%;
+    align-items: flex-end;
+    height: 80px;
+    margin-bottom: 5%;
+    box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
+ }
+
 .foodtitle_more {
    width: 81%;
    display: flex;
@@ -136,7 +184,7 @@ footer li {
    height: 45px;
 }
 
-.steptoeat {
+/*.steptoeat {
     animation-duration: 3s;
     animation-name: slidein;
     }
@@ -152,4 +200,20 @@ footer li {
           margin-left:0%;
           width:100%;
         }
-      }
+
+      } */
+      
+.food {
+    animation-duration: 3s;
+    animation-name: menu_anim;
+}
+
+    @keyframes menu_anim {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+        
+    }
