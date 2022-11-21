@@ -221,7 +221,7 @@ footer li {
         
     }
 
-    .food2 {
+.food2 {
         animation-duration: 1.3s;
         animation-name: menu_anim;
     }
@@ -237,11 +237,11 @@ footer li {
                 opacity: 1;
             }
             
-        }
+    }
 
-        .food3 {
-            animation-duration: 1.6s;
-            animation-name: menu_anim;
+.food3 {
+    animation-duration: 1.6s;
+    animation-name: menu_anim;
         }
         
             @keyframes menu_anim {
@@ -260,27 +260,53 @@ footer li {
                 
             }
 
-            .food4 {
-                animation-duration: 2s;
-                animation-name: menu_anim;
+.food4 {
+    animation-duration: 2s;
+    animation-name: menu_anim;
                 
-            }
-            
-                @keyframes menu_anim {
-                    0% {
-                        opacity: 0;
-                    }
-                    20%{
-                        opacity: 0;
-                    }
-                    40% {
-                        opacity: 0;
-                    }
-                    60% {
-                        opacity: 0;
-                    }
-                    100%{
-                        opacity: 1;
-                    }
-                    
+    }
+
+            @keyframes menu_anim {
+                0% {
+                     opacity: 0;
                 }
+                20%{
+                        opacity: 0;
+                }
+                40% {
+                    opacity: 0;
+                }
+                60% {
+                    opacity: 0;
+                }
+                100%{
+                    opacity: 1;
+                }
+                    
+    }
+
+.check_ok{
+    background-color: #99E2D0;
+    position: absolute;
+    right: -20%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border-radius: 0px 25px 25px 0px ;
+    transition: all .5s;
+    /* z-index: -1; */
+}
+
+.icon_check {
+    color: white;
+    font-size: 30px;
+}
+
+a:hover {
+    right: 0;
+}
+
+
+                
