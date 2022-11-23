@@ -5,6 +5,7 @@
     padding: 0;
     scroll-behavior: smooth;
     text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -30,9 +31,11 @@ body {
 .spinner {
     height: 120px;
     width: 120px;
-    left: 35%;
-    top: 35%;
-    position: absolute;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     border: 6px solid #9356DC ;
     border-color: #9356DC  transparent #9356DC  transparent;
     border-radius: 50%;
@@ -41,6 +44,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }   
 
 @keyframes spin {
@@ -90,10 +94,16 @@ header img {
     margin-bottom: 10%;
     margin-top: 2%;
     background: linear-gradient(#FF79DA, #9356DC );
+    transition: 1s;
 }
 
 .bouton_explorer p {
     text-align: center;
+}
+
+.bouton_explorer:hover {
+    
+    background: linear-gradient(red, #9356DC );
 }
 
 .restaurant_explorer {
@@ -177,6 +187,14 @@ header img {
 
 .Heart:hover .fa-solid {
     transform: scale(1);
+}
+
+.fa-regular {
+    transition: 3s;
+}
+
+.Heart:hover .fa-regular {
+    opacity: 0;
 }
 
 

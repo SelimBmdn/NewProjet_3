@@ -114,6 +114,7 @@ footer li {
     height: 80px;
     margin-bottom: 5%;
     box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
+    position: relative;
  }
 
  .food2 {
@@ -287,16 +288,20 @@ footer li {
 
 .check_ok{
     background-color: #99E2D0;
-    position: absolute;
-    right: -20%;
+    /*position: absolute;
+    right: -23%; */
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 20%;
     border-radius: 0px 25px 25px 0px ;
-    transition: all .5s;
-    /* z-index: -1; */
+    visibility: hidden;
+    margin-right: -17%;
+    color: white;
+    font-size: 30px;
+    transition-duration: 0.5s;
+    
 }
 
 .icon_check {
@@ -304,8 +309,13 @@ footer li {
     font-size: 30px;
 }
 
-a:hover {
-    right: 0;
+.food1:hover .check_ok{
+    visibility: visible;
+    margin-right: 0%;
+}
+.food1:hover .icon_check{
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
 }
 
 
