@@ -159,11 +159,14 @@ footer li {
    flex-direction: column;
    align-items: baseline;
    height: 100%;
+   margin-left: 1%;
 }
 .foodtitle_more h3 {
    margin-top: 3%;
    margin-bottom: 1%;
 }
+
+
 
 .foodtitle_more p {
    margin-bottom: 1%;
@@ -183,6 +186,10 @@ footer li {
    display: flex;
    justify-content: center;
    height: 45px;
+}
+
+.bouton_commander:hover p {
+    background: linear-gradient(#ff8ddf, #a36fe1 );
 }
 
 .all_the_menu h2 {
@@ -317,6 +324,3 @@ footer li {
     transform: rotate(360deg);
     transition-duration: 0.5s;
 }
-
-
-                
