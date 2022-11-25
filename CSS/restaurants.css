@@ -8,6 +8,7 @@
    margin-left: inherit;
    margin-right: inherit;
    text-decoration: none;
+   color: inherit;
 }
    
 header {
@@ -74,6 +75,30 @@ footer li {
 }
 .heart_inside {
    font-size: 25px;
+   position: relative;
+}
+
+.heart_inside .fa-solid {
+    transform: scale(0);
+    position: absolute;
+    left: 1%;
+    bottom: 10%;
+    transition: 1s;
+    background: -webkit-linear-gradient(top,#FF79DA, #9356DC );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.heart_inside:hover .fa-solid {
+    transform: scale(1);
+}
+
+.fa-regular {
+    transition: 3s;
+}
+
+.heart_inside:hover .fa-regular {
+    opacity: 0;
 }
 
 .insidethemenu {
@@ -92,6 +117,8 @@ footer li {
    width: 50px;
 }
 
+/*Pierre*/
+/*
 .food {
    display: flex;
    background-color: white;
@@ -102,21 +129,29 @@ footer li {
    height: 80px;
    margin-bottom: 5%;
    box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
-}
 
-.food1 {
+}*/
+
+.food, .food1, .food2, .food3, .food4 {
     display: flex;
     background-color: white;
     border-radius: 25px;
-    justify-content: space-around;
     width: 95%;
     align-items: flex-end;
-    height: 80px;
     margin-bottom: 5%;
     box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
-    position: relative;
- }
 
+   /*Pierre*/
+   overflow:hidden; /* masque l'icon */
+   /*justify-content: space-around;*/
+   height: 80px;
+   animation-duration: 1s;
+   animation-name: menu_anim;
+   /**/
+
+ }
+/*Pierre*/
+/*
  .food2 {
     display: flex;
     background-color: white;
@@ -151,41 +186,126 @@ footer li {
     height: 80px;
     margin-bottom: 5%;
     box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
- }
+ }*/
 
 .foodtitle_more {
-   width: 81%;
+
+   /* PIERRE */
+   /*
+   height: 100%;
    display: flex;
    flex-direction: column;
    align-items: baseline;
-   height: 100%;
    margin-left: 1%;
-}
-.foodtitle_more h3 {
-   margin-top: 3%;
-   margin-bottom: 1%;
+      width: 81%;
+   */
+   flex:1;
+   padding-left: 15px;
+   width: 130px;
+   margin: auto; /*centrage des textes dans le bloc*/
+   /*padding-top: 5px;
+   padding-bottom: 5px;*/
+   /*height: 80px;*/
+   /**/
+
 }
 
 
+.foodtitle_more h3, .foodtitle_more p {
+  /* margin-top: 3%;
+   margin-bottom: 1%;*/
 
-.foodtitle_more p {
-   margin-bottom: 1%;
-   margin-top: 2%;
+   /*Pierre*/
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   margin: 0;
+   /**/
+
 }
-.bouton_commander {
-   display: flex;
-   justify-content: center;
+
+/*Pierre*/
+.price{
+    align-self: flex-end;
+    width: 40px
+    /*-ms-flex-item-align: end;*/
 }
-.bouton_commander p {
-   width: 35%;
-   box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
-   color: white;
-   background: -webkit-linear-gradient(top,#FF79DA, #9356DC );
-   border-radius: 50px;
-   align-items: center;
-   display: flex;
-   justify-content: center;
-   height: 45px;
+/**/
+
+.check_ok{
+    background-color: #99E2D0;
+    /*position: absolute;
+    right: -23%; */
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 25px 25px 0px ;
+    color: white;
+    font-size: 30px;
+    transition-duration: 0.5s;
+    
+    /*Pierre*/
+    /*width: 20%;
+    margin-right: -17%;
+    visibility: hidden;
+      */
+    width: 0;/* Disparition du check */
+    /**/
+    
+}
+
+.icon_check {
+    color: white;
+    font-size: 30px;
+}
+
+.food1:hover .check_ok{
+    /*Pierre*/
+    /*visibility: visible;
+    margin-right: 0%;
+    */
+    width: 60px;
+}
+.food1:hover .icon_check{
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+}
+
+.food2:hover .check_ok{
+    /*Pierre*/
+    /*visibility: visible;
+    margin-right: 0%;
+    */
+    width: 60px;
+}
+.food2:hover .icon_check{
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+}
+
+.food3:hover .check_ok{
+    /*Pierre*/
+    /*visibility: visible;
+    margin-right: 0%;
+    */
+    width: 60px;
+}
+.food3:hover .icon_check{
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+}
+
+.food4:hover .check_ok{
+    /*Pierre*/
+    /*visibility: visible;
+    margin-right: 0%;
+    */
+    width: 60px;
+}
+.food4:hover .icon_check{
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
 }
 
 .bouton_commander:hover p {
@@ -210,11 +330,12 @@ footer li {
         }
 
       } 
-      
-.food1 {
+     
+/*Pierre*/      
+/*.food1 {
     animation-duration: 1s;
     animation-name: menu_anim;
-}
+}*/
 
     @keyframes menu_anim {
         0%{
@@ -229,10 +350,11 @@ footer li {
         
     }
 
-.food2 {
+/*Pierre*/ 
+/*.food2 {
         animation-duration: 1.3s;
         animation-name: menu_anim;
-    }
+    }*/
     
         @keyframes menu_anim {
             0% {
@@ -247,10 +369,11 @@ footer li {
             
     }
 
-.food3 {
+/*Pierre*/ 
+/*.food3 {
     animation-duration: 1.6s;
     animation-name: menu_anim;
-        }
+        }*/
         
             @keyframes menu_anim {
                 0% {
@@ -268,11 +391,12 @@ footer li {
                 
             }
 
-.food4 {
+/*Pierre*/ 
+/*.food4 {
     animation-duration: 2s;
     animation-name: menu_anim;
                 
-    }
+    }*/
 
             @keyframes menu_anim {
                 0% {
@@ -293,34 +417,19 @@ footer li {
                     
     }
 
-.check_ok{
-    background-color: #99E2D0;
-    /*position: absolute;
-    right: -23%; */
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    border-radius: 0px 25px 25px 0px ;
-    visibility: hidden;
-    margin-right: -17%;
-    color: white;
-    font-size: 30px;
-    transition-duration: 0.5s;
-    
-}
 
-.icon_check {
-    color: white;
-    font-size: 30px;
+.bouton_commander {
+   display: flex;
+   justify-content: center;
 }
-
-.food1:hover .check_ok{
-    visibility: visible;
-    margin-right: 0%;
-}
-.food1:hover .icon_check{
-    transform: rotate(360deg);
-    transition-duration: 0.5s;
+.bouton_commander p {
+   width: 35%;
+   box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
+   color: white;
+   background: -webkit-linear-gradient(top,#FF79DA, #9356DC );
+   border-radius: 50px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   height: 45px;
 }
