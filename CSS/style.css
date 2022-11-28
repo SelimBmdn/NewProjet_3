@@ -260,27 +260,24 @@ header img {
 footer {
     background-color: #000000cf;
     color: white;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    margin-top: 5px;
 }
 
 footer h3 {
     font-family: 'Shrikhand', cursive;
     margin: inherit;
-    margin-left: 5%;
 }
 
 footer ul {
-    margin-left: 2.5%;
+ 
 }
 
 footer li {
     display: flex;
     align-items: center;
-}
-
-.iconefourchette {
-    margin-right: 2%;
-}
-
-.iconehands {
-    margin-right: 2%;
 }

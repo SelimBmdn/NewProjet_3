@@ -10,21 +10,32 @@
    text-decoration: none;
    color: inherit;
 }
+
+body {
+    margin: 0;
+}
    
 header {
    display: flex;
-   justify-content: space-evenly;
-   margin-right: 10%;
    align-items: center;
    height: 55px;
 }
+
+
    
 header img {
        height: 30px
 }
 
+.bloc_image {
+    width: 33%;
+    text-align: center;
+}
+
 .arrow_return {
    font-size: 25px;
+   width: 33%;
+   padding-left: 10px;
 }
 
 .image_back img {
@@ -34,16 +45,21 @@ header img {
 footer {
    background-color: #000000cf;
    color: white;
+   padding: 20px;
 }
    
 footer h3 {
    font-family: 'Shrikhand', cursive;
    margin: inherit;
-   margin-left: 5%;
 }
    
 footer ul {
-   margin-left: 2.5%;
+
+}
+
+footer p {
+    margin: 0;
+    margin-top: 5px;
 }
 
 footer li {
@@ -51,13 +67,6 @@ footer li {
     align-items: center;
 }
 
-.iconefourchette {
-    margin-right: 2%;
-}
-
-.iconehands {
-    margin-right: 2%;
-}
 
 .all_the_menu {
    background-color: #f2f2f2;

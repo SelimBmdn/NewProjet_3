@@ -32,5 +32,44 @@
 
     /* Menus */
 
+    .image_back img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+
     
+    .insidethemenu {
+        
+    }
+
+    .all_the_menu {
+        width: 70%;
+        border-radius: 50px 50px 50px 50px;
+        margin-top: -5%;
+        margin: auto;
+    }
+
+    .steptoeat {
+        width: 250px;
+    }
+
+    .bouton_commander p { 
+        width: 100%;
+        
+    }
+
+    .bouton_commander {
+   
+    }
+
+    .bouton_commander:hover {
+        background: linear-gradient(#ff8ddf, #a36fe1 );
+    }
+
+    .conteiner_menu {
+        display: flex;
+       
+
+    }
 }
