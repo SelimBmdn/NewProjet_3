@@ -65,7 +65,6 @@ body {
 header {
     display: flex;
     justify-content: center;
-    /*  box-shadow: 0px 0px 5px gray; */
     align-items: center;
     height: 55px;
 }
@@ -122,8 +121,6 @@ header img {
     width: 60%;
 }
 
-
-
 .Therestaurants {
     background-color: #f2f2f2;
     display: flex;
@@ -145,8 +142,13 @@ header img {
     font-weight: bold;
     top: 5%;
     right: 5%;
-    width: 70px;
+    width: 75px;
     text-align: center;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 }
 
 .cards {

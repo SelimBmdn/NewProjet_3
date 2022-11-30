@@ -31,53 +31,5 @@
         width: 35%;
     }
 
-                        /*Menus*/
-
-                        /*
-
-    .all_the_menu {
-        display: flex;
-        justify-content: center;
-        align-items: center;  
-    }
-
-    .arrow_return {
-        font-size: 25px;
-        display: flex;
-        align-items: center;
-    }
-
-    .food1 {
-        height: 135px;
-    }
-
-    .check_ok {
-        height: 135px;
-    }
-
-    .image_back img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-  }
-
-.bouton_commander p {
-    width: 100%;
-}
-
-.bouton_commander {
-    box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
-color: white;
-background: -webkit-linear-gradient(top,#FF79DA, #9356DC );
-border-radius: 50px;
-align-items: center;
-display: flex;
-justify-content: center;
-height: 45px;
-width: 100%;
-} */
-
-
-
 }
     
