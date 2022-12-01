@@ -267,16 +267,12 @@ footer {
 
 footer p {
     margin: 0;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 footer h3 {
     font-family: 'Shrikhand', cursive;
     margin: inherit;
-}
-
-footer ul {
- 
 }
 
 footer li {

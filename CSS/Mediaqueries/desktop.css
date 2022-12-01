@@ -3,7 +3,8 @@
         /* Acceuil */
     
     .step_fonctionnement {
-        width: 39%;
+        margin-left: 2%;
+        width: 25%;
         margin-bottom: 2%;
     }
 
@@ -13,6 +14,10 @@
     
     .Fonctionnement {
         margin-bottom: 1%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
     }
     
     .Fonctionnement h2 {
@@ -39,7 +44,7 @@
     }
 
     .cards {
-        margin: 2%;
+        margin: 1%;
     }
 
     /* Menus */
@@ -48,17 +53,17 @@
         width: 100%;
         height: 500px;
         object-fit: cover;
+        margin-bottom: 10%;
     }
 
     .all_the_menu {
         width: 70%;
-        border-radius: 50px 50px 50px 50px;
         margin-top: -5%;
         margin: auto;
     }
 
     .steptoeat {
-        width: 250px;
+        width: 100%;
     }
 
     .bouton_commander p { 

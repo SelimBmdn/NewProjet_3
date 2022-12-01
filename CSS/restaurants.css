@@ -50,21 +50,16 @@ footer h3 {
    font-family: 'Shrikhand', cursive;
    margin: inherit;
 }
-   
-footer ul {
-
-}
 
 footer p {
     margin: 0;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 footer li {
     display: flex;
     align-items: center;
 }
-
 
 .all_the_menu {
    background-color: #f2f2f2;
@@ -433,7 +428,7 @@ footer li {
    justify-content: center;
 }
 .bouton_commander p {
-   width: 35%;
+    width: 120px;
    box-shadow: 8px 1px 15px -1px rgb(189 189 189 / 51%);
    color: white;
    background: -webkit-linear-gradient(top,#FF79DA, #9356DC );
