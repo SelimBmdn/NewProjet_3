@@ -7,19 +7,16 @@
         width: 25%;
         margin-bottom: 2%;
     }
-
     .restaurant_explorer {
         height: 240px;
-    }
-    
+    }    
     .Fonctionnement {
         margin-bottom: 1%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: baseline;
-    }
-    
+    }    
     .Fonctionnement h2 {
         margin-right: 0%;
         margin-top: 2%;
@@ -31,18 +28,15 @@
         align-items: center;
         width: 100%;
         margin: 1%;
-    }
-    
+    }    
     .Therestaurants h2 {
        margin-top: 1%;
        margin-right: 0%;
        
-    }
-    
+    }   
     .bouton_explorer {
         width: 25%;
     }
-
     .cards {
         margin: 1%;
     }
@@ -55,21 +49,17 @@
         object-fit: cover;
         margin-bottom: 10%;
     }
-
     .all_the_menu {
         width: 70%;
         margin-top: -5%;
         margin: auto;
     }
-
     .steptoeat {
         width: 100%;
     }
-
     .bouton_commander p { 
         width: 100%;    
     }
-
     .conteiner_menu {
         display: flex;
     }
