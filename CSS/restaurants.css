@@ -87,7 +87,8 @@ footer li {
     bottom: 10%;
     transition: 1s;
     background: -webkit-linear-gradient(top,#FF79DA, #9356DC );
-    -webkit-background-clip: text;
+    background-clip: initial;
+    -webkit-background-clip: text; 
     color: transparent;
 }
 .heart_inside:hover .fa-solid {

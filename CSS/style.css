@@ -165,7 +165,6 @@ header img {
 }
 
 /*modif après soutenance cards page acceuil, titre et description menu */
-
 .title_and_text_card h3 {
     margin: inherit;
     margin-top: 10%;
@@ -189,6 +188,7 @@ header img {
     bottom: 10%;
     transition: 1s;
     background: -webkit-linear-gradient(top,#FF79DA, #9356DC );
+    background-clip: initial;
     -webkit-background-clip: text;
     color: transparent;
 }
