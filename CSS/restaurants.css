@@ -215,7 +215,7 @@ footer li {
 .bouton_commander p:hover  {
     background: linear-gradient(#ff8ddf, #a36fe1 );
 }
-/* anim aparraition menu */
+/* anim title insidemenu */
 .all_the_menu h2 {
     animation-duration: 1s;
     animation-name: slidein;
@@ -233,7 +233,7 @@ footer li {
         }
       } 
 
-/* anim title insidemenu */
+ /* anim aparraition menu */
 .insidethemenu {
     animation-name: slidetop;
     animation-duration: 2s;

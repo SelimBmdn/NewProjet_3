@@ -164,9 +164,22 @@ header img {
     justify-content: space-around;
 }
 
+/*modif après soutenance cards page acceuil, titre et description menu */
+
+.title_and_text_card h3 {
+    margin: inherit;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.title_and_text_card p {
+    margin: inherit;
+    margin-bottom: 10%;
+}
+
 /*Heart and anim heart*/
 .Heart {
-    font-size: 20px;    
+    font-size: 30px;    
     position: relative;
 }
 .Heart .fa-solid {
